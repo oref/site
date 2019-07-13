@@ -1,0 +1,11 @@
+nav {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}

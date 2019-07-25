@@ -2,14 +2,12 @@ import sys
 import webbrowser
 from flask import Flask, render_template
 from flask_flatpages import FlatPages
-from flask_frozen import Freezer
 
 FLATPAGES_EXTENSION = '.md'
 
 app = Flask(__name__)
 app.config.from_object(__name__)
 pages = FlatPages(app)
-freezer = Freezer(app)
 
 @app.route('/')
 def home():
@@ -29,5 +27,4 @@ def projects():
     pass
 
 if __name__ == '__main__':
-    freezer.freeze()
-    #app.run(debug=True, host='0.0.0.0')
+    app.run(host='0.0.0.0')

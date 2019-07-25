@@ -2,20 +2,22 @@
     <head>
           <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.1/hack.css" />
           <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.1/solarized-dark.css" />
-          <link rel="stylesheet" type="text/css" href="style.css" />
+          <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
           <meta charset="utf-8">
     </head>
     <body class="hack solarized-dark">
         <div class="container">
             <nav>
-                <a href="#">Oref</a> |
-                <a href="#">Blog</a> |
-                <a href="#">Projects</a> |
-                <a href="#">Github</a> |
-                <a href="#">Twitter</a>
+                <a href="{{ url_for("home") }}">Oref</a> |
+                <a href="{{ url_for("blog") }}">Blog</a> |
+                <a href="{{ url_for("projects") }}">Projects</a> |
+                <a href="https://github.com/oref" target="_blank">Github</a> |
+                <a href="https://twitter.com/OrefDev" target="_blank">Twitter</a>
             </nav>
             <div class="content">
-
+            {% block content %}
+                <p> default content to be displayed </p>
+            {% endblock content %}
             </div>
         </div>
     </body>

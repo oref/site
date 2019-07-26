@@ -22,3 +22,18 @@ img {
     max-width: 100%;
     padding: 1em;
 }
+a {
+    color: cyan;
+    border-bottom: 1px solid cyan;
+}
+
+a:hover {
+    color: cyan;
+}
+nav {
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+.content {
+    margin-top: 15px;
+}

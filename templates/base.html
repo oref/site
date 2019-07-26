@@ -3,15 +3,16 @@
           <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.1/hack.css" />
           <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.1/solarized-dark.css" />
           <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <meta charset="utf-8">
     </head>
     <body class="hack solarized-dark">
         <div class="container">
             <nav>
-                <a href="{{ url_for("home") }}">Oref</a> |
-                <a href="{{ url_for("blog") }}">Blog</a> |
-                <a href="{{ url_for("projects") }}">Projects</a> |
-                <a href="https://github.com/oref" target="_blank">Github</a> |
+                <a href="{{ url_for("home") }}">Oref</a> /
+                <a href="{{ url_for("blog") }}">Blog</a> /
+                <a href="{{ url_for("projects") }}">Projects</a> /
+                <a href="https://github.com/oref" target="_blank">Github</a> /
                 <a href="https://twitter.com/OrefDev" target="_blank">Twitter</a>
             </nav>
             <div class="content">

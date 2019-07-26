@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5bbf4bff-4588-48ed-8eb9-095f285508d1/deploy-status)](https://app.netlify.com/sites/boring-almeida-ddbeb3/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/84066080-146d-483a-801e-6b8fe9a72b88/deploy-status)](https://app.netlify.com/sites/orefdev/deploys)
 
 ### >> [oref.dev](https://oref.dev)
 

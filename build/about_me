@@ -19,11 +19,17 @@
             </nav>
             <div class="content">
             
-    <h2>Hello World</h2>
-    2019-07-23<p>Well this is the first blog post that I used to test if this was working..</p>
-<p>I'm going to leave it here, after all this is it's home.</p>
-<p>Maybe go see if i've written something more interesting.</p>
-<p><img alt="alt text" src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" title="Logo Title Text 1" /></p>
+
+<h1>Harry Morgan</h1>
+<h2>Software Engineer // Integration Testing</h2>
+<div style="margin-top: 30px;">
+    <h3>About Me</h3>
+    <p>
+        I'm Harry Morgan, I'm currently in the process of finishing up my industrial placement at <a href="https://www.dai.co.uk/">DAI</a>
+        where my responsiblities include(d): developing solutions for integration testing, ui, deployment and installation, supporting projects using our tools
+
+    </p>
+</div>
 
             </div>
         </div>

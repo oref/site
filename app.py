@@ -10,22 +10,32 @@ app.config.from_object(__name__)
 pages = FlatPages(app)
 freezer = Freezer(app)
 
+
 @app.route('/')
 def home():
     return render_template('base.html')
+
 
 @app.route('/blog')
 def blog():
     return render_template('blog.html', pages=pages)
 
+
 @app.route('/<path:path>/')
 def page(path):
-    page = pages.get_or_404(path)
-    return render_template('page.html', page=page)
+    page_ = pages.get_or_404(path)
+    return render_template('page.html', page=page_)
+
 
 @app.route('/projects')
 def projects():
     return render_template('projects.html')
+
+
+@app.route('/about_me')
+def about_me():
+    return render_template('about_me.html')
+
 
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "build":

@@ -36,6 +36,10 @@ def projects():
 def about_me():
     return render_template('about_me.html')
 
+@app.route('/silicon_blood')
+def silicon_blood():
+    return render_template('silicon_blood.html')
+
 
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "build":
